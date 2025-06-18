@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    /* 1:active */
+    /* a:active {
+  background-color: rgb(255, 0, 162);
+}
+a:visited{
+  color: aqua;
+}
+a:link{
+  color: rgb(244, 57, 11);
+} */
+ /* 2:any-link */
+/* a:any-link {
+  background-color: yellow;
+  color: maroon;
+} */
+/* 3:auto-fill */
+/* input:autofill {
+  border: 2px solid salmon;
+} */
+ /* 4:checked */
+/* input:checked {
+  outline: 2px solid red;
+} */
+ /* 5:default */
+/* input:default {
+  box-shadow: 0 0 2px 2px rgb(226, 8, 175);
+} */
+ /* 6:dir() */
+/* p:dir(rtl) {
+  background-color: lightgreen;
+}
+p:dir(ltr) {
+  background-color: lightgreen;
+} */
+ /* 7:enabled */
+/* input:enabled {
+  background-color: yellow;
+} */
+/* 8:disabled */
+/* input:disabled {
+  background-color: lightgray;
+} */
+ /* 9:first-child */
+/* p:first-child {
+  background-color: yellow;
+} */
+ /* 10:first-of-type */
+/* p:first-of-type {
+  background-color: yellow;
+} */
+ /* 11:empty */
+ /* .box {
+  background-color: lightgreen;
+  height: 90px;
+  width: 90px;
+}
+
+.box:empty {
+  background-color: salmon;
+} */
+</style>
+<body>
+    <h2>Pseudo Classes</h2>
+       <a href="https://www.google.com">Google</a>
+       <a href="https://www.oceanacademy.co.in">oceanacademy</a>
+       <br><br>
+       <form >  <label for="username">Username</label><br>
+        <input type="text" id="username" name="username" required>
+        <br><br>
+        <label for="password">Password</label><br>
+        <input type="text" id="password" name="password" required>
+        <br><br>
+        <label for="email">Email</label><br>
+        <input type="text" id="email" name="email" required disabled>
+        <br><br>
+        <h4>Choose your favorite weather:</h4>
+        <input type="radio" id="Summer" name="weather" checked>
+        <label for="">Summer</label>
+        <br><br>
+        <input type="radio" id="Spring" name="weather">
+        <label for="">Spring</label>
+        <br><br>
+        <input type="radio" id="Winter" name="weather">
+        <label for="">Winter</label>
+        <br><br>
+        <input type="radio" id="Autumn" name="weather">
+        <label for="">Autumn</label>
+        <br><br>
+    </form>
+    <p dir="rtl">Write this text right-to-left!</p>
+    <p dir="ltr">Write this text left-to-right!</p>
+    <div>
+        <p>First Child (first of type)</p>
+        <p>Not a First Child</p>
+    </div>
+    <div class="box"></div><br>
+<div class="box">Box</div><br>
+
+</body>
+</html>

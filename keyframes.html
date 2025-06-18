@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyframes</title>
+</head>
+<style>
+    div{
+        height: 100px;
+        width: 100px;
+        position: absolute;
+        background: rgb(248, 5, 5);
+        animation: kf 5s infinite ease-in-out;
+        border-radius: 180%;
+    }
+
+    @keyframes kf{
+        /* 50%{
+            top: calc(50% - 50px);
+            transform: translateX(50%) scale(1.1,0.9);
+        } */
+        /* from {top: 0px; background: rgb(237, 88, 88); width: 100px;} */
+        /* to {top: 90%; background: rgb(236, 150, 150); width: 100px;} */
+         0%   {top: 0px; left: 0px; background: rgb(38, 52, 1);}
+         25%  {top: 0px; left: 90%; background: rgb(48, 107, 2);}
+         50%  {top: 470px; left: 90%; background: rgb(132, 225, 18);}
+         75%  {top: 470px; left: 0px; background: rgb(174, 239, 78);}
+         100% {top: 0px; left: 0px; background: rgb(220, 243, 163);}
+        }
+        
+    
+    
+    
+</style>
+<body>
+    <h3>KEYFRAMES</h3>
+    <div></div>
+</body>
+</html>
